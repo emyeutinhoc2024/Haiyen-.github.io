@@ -3,62 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thông Tin Thành Viên</title>
+    <title>Hồ Sơ VIPRO</title>
     <style>
         body {
-            background-color: #f0f8ff; /* Nền xanh nhạt */
-            color: #333; /* Màu chữ tối */
             font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
             margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .profile {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px 0;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .profile-info {
+            max-width: 600px;
+        }
+        .profile-info h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .profile-info p {
+            font-size: 1.2em;
             line-height: 1.6;
         }
-        h1 {
-            color: #0077b6; /* Xanh đậm */
+        .contact {
             text-align: center;
-            margin-bottom: 20px;
+            margin-top: 50px;
         }
-        .info-container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center; /* Căn giữa nội dung */
+        .contact a {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 5px;
         }
-        .info-item {
-            margin-bottom: 15px;
-        }
-        .info-item strong {
-            color: #03045e; /* Xanh đậm */
-        }
-        img {
-            max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước hộp */
-            border-radius: 50%; /* Hình ảnh dạng tròn */
-            margin-bottom: 20px;
-        }
-        audio {
-            display: block;
-            margin: 20px auto;
-            width: 100%;
+        .contact a:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
 <body>
-    <h1>Thông Tin Thành Viên</h1>
-    <div class="info-container">
-      <img src="https://sohanews.sohacdn.com/2019/5/23/image001-155861287632990508167.png" alt="Ảnh profile">
-        <div class="info-item"><strong>Tên:</strong> Trần Thị Hải Yến</div>
-        <div class="info-item"><strong>Ngày tháng năm sinh:</strong> 11/04/2007</div>
-        <div class="info-item"><strong>Quê quán:</strong> Mỏ Cày Bắc, Bến Tre</div>
-        <div class="info-item"><strong>Lớp:</strong> 12 Hóa</div>
-        <div class="info-item"><strong>Trường:</strong> Trường THPT Chuyên Bến Tre</div>
-        <div class="info-item"><strong>Sở thích:</strong> Ngủ, nghe nhạc</div>
-        <div class="info-item"><strong>Nghề nghiệp tương lai:</strong> Giáo viên</div>
-        <div class="info-item"><strong>Bài hát yêu thích:</strong> Just to die - Keshi</div>
-        <div class="info-item"><strong>Vài điều về mình:</strong> Trần Thị Hải Yến</div>
+    <header>
+        <h1>Hồ Sơ VIPRO</h1>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="12H/7.jpg" alt="Ảnh đại diện" width="500">
+            <div class="profile-info">
+                <h2>Nguyễn Ngọc Bích Tuyền</h2>
+                <p>Chào mừng bạn đến với hồ sơ của VIPRO của tôi. </p>
+<li>Ngày/Tháng/Năm sinh: 17/07/2007</li>
+
+    <li>Giới tính: Nữ</li>
+
+    <li>Trình độ học vấn: 12/12</li>
+
+    <li>Quê quán: Bình Đại - Bến Tre</li> 
+<h2><strong>Thành tích</strong></h2>
+	<li>Tham gia kỳ thi học sinh giỏi cấp Tỉnh</li>
+	<li>Tham gia cuộc thi Nghiên Cứu Khoa Học</li>
+	<li>Thành viên Câu Lạc Bộ BeOC</li>
+	<li>Cộng tác viên nhiều sự kiện</li>
+
+
+
+            </div>
+        </div>
+
+        <div class="contact">
+            <h3>Liên Hệ</h3>
+            <a href="mailto:bichtuyen43321@gmail.com">Gửi Email</a>
+		<a href="https://www.facebook.com/profile.php?id=100049275588055"> Facebook </a>
+      
+       
     </div>
 </body>
 </html>
-
