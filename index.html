@@ -67,6 +67,21 @@
         .contact a:hover {
             background-color: #2980b9;
         }
+ /* Hình ảnh động dễ thương bên phải màn hình */
+        .cute-animation {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 200px;
+            animation: bounce 3s infinite;
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+
     </style>
 </head>
 <body>
@@ -76,7 +91,7 @@
 
     <div class="container">
         <div class="profile">
-           <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/hinh-anh-doremon-2.jpg" alt="Hình ảnh Doremon">
+            <img src="https://i.imgur.com/uQwCMET.jpeg" alt="Ảnh đại diện" width="500">
             <div class="profile-info">
                 <h2>Nguyễn Ngọc Bích Tuyền</h2>
                 <p>Chào mừng bạn đến với hồ sơ của VIPRO của tôi. </p>
@@ -102,8 +117,11 @@
             <h3>Liên Hệ</h3>
             <a href="mailto:bichtuyen43321@gmail.com">Gửi Email</a>
 		<a href="https://www.facebook.com/profile.php?id=100049275588055"> Facebook </a>
-      
+       <img src="https://tse1.mm.bing.net/th?id=OIP.SvHUdgotLxOlzhwcWuGq8QHaHa&pid=Api&P=0&h=220" alt="Hình ảnh hoạt hình" class="cute-animation">
+
        
     </div>
+
+
 </body>
 </html>
